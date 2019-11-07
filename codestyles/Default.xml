@@ -1,0 +1,11 @@
+<code_scheme name="Default" version="173">
+  <Objective-C>
+    <option name="FUNCTION_CALL_ARGUMENTS_WRAP" value="0" />
+  </Objective-C>
+  <codeStyleSettings language="ObjectiveC">
+    <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
