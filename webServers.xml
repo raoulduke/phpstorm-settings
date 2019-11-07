@@ -1,0 +1,17 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b196b3eb-f137-452a-a5f5-6815758d0c68" name="PHOENIX_CA" url="https://phoenixcadev.corp.moneris.com:4443">
+        <fileTransfer host="172.23.164.224" port="22" rootFolder="/home/matt/dev/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1fc5d751-feee-4f6e-b2b3-ab2f6145978a" name="Vagrant" url="http://admin-template.test">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
