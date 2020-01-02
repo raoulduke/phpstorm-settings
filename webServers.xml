@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="c90cf50c-202a-44af-afca-8319ad1b51d3" name="Phoenix Dev" url="http://172.23.164.224">
-        <fileTransfer host="172.23.164.224" port="22" rootFolder="/home/matt/dev/phoenix_ca_client" accessType="SFTP">
+        <fileTransfer host="172.23.164.224" port="22" rootFolder="/home/matt/dev/phoenix_stats" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
