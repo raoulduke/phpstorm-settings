@@ -9,6 +9,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="b77d5a24-90c2-4fac-9c7c-f81d0248d939" name="PhoenixCA Dev" url="http://172.23.164.224">
+        <fileTransfer host="172.23.164.224" port="22" rootFolder="/home/matt/dev/phoenix_ca/clients/web" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
