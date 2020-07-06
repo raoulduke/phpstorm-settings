@@ -3,7 +3,7 @@
     <configs>
       <sshConfig host="mattkeaveney.com" id="15d0510d-da18-4458-b869-d7df5f997368" keyPath="C:\Users\matthew.keaveney\.ssh\id_rsa" port="22" customName="MK" nameFormat="CUSTOM" username="matt" />
       <sshConfig authType="PASSWORD" host="172.23.164.224" id="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" port="22" customName="PhoenixCA Dev" nameFormat="CUSTOM" username="matt" />
-      <sshConfig authType="PASSWORD" host="172.23.164.224" id="1ce22810-13ac-497a-b301-d912ac5f2988" port="22" customName="PhoenixCA Dev" nameFormat="CUSTOM" username="matt" />
+      <sshConfig authType="PASSWORD" host="172.23.164.224" id="39e53e37-7562-438f-aadb-e62c0db77749" port="22" customName="PhoenixCA Dev" nameFormat="CUSTOM" username="matt" />
     </configs>
   </component>
 </application>
