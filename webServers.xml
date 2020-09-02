@@ -2,19 +2,24 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="209f022c-7374-45d1-8568-741f40170a56" name="MK" url="https://mattkeaveney.com">
-        <fileTransfer host="mattkeaveney.com" port="22" privateKey="C:\Users\matthew.keaveney\.ssh\id_rsa" rootFolder="/var/www/mattkeaveney.com/public_html" accessType="SFTP" keyPair="true">
+        <fileTransfer rootFolder="/var/www/mattkeaveney.com/public_html" accessType="SFTP" host="mattkeaveney.com" port="22" sshConfigId="15d0510d-da18-4458-b869-d7df5f997368" sshConfig="MK" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="b77d5a24-90c2-4fac-9c7c-f81d0248d939" name="PhoenixCA Dev" url="http://172.23.164.224">
-        <fileTransfer host="172.23.164.224" port="22" rootFolder="/home/matt/dev/phoenix_ca/clients/web" accessType="SFTP">
+        <fileTransfer rootFolder="/home/matt/dev/phoenix_ca/clients/web" accessType="SFTP" host="172.23.164.224" port="22" sshConfigId="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" sshConfig="PhoenixCA Dev">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1f24c88a-40bf-4195-942c-c34ccfe56ca4" name="PhoenixCA TEST" url="http://172.23.164.224">
+        <fileTransfer rootFolder="/home/matt/dev/test" accessType="SFTP" host="172.23.164.224" port="22" sshConfigId="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" sshConfig="PhoenixCA Dev">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
         </fileTransfer>
       </webServer>
     </option>
