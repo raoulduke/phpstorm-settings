@@ -22,6 +22,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="e15e1aff-11ab-4005-bfe9-f2069672c982" name="PhoenixCA Mobile" url="http://172.23.164.224">
+        <fileTransfer rootFolder="/home/matt/dev/phoenix_ca/clients/mobile" accessType="SFTP" host="172.23.164.224" port="22" sshConfigId="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" sshConfig="PhoenixCA Dev">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
