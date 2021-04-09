@@ -1,10 +1,10 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig host="mattkeaveney.com" id="15d0510d-da18-4458-b869-d7df5f997368" keyPath="C:\Users\matthew.keaveney\.ssh\id_rsa" port="2222" customName="MK" nameFormat="CUSTOM" username="matt">
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="mattkeaveney.com" id="15d0510d-da18-4458-b869-d7df5f997368" keyPath="C:\Users\matthew.keaveney\.ssh\id_rsa" port="2222" customName="MK" nameFormat="CUSTOM" username="matt">
         <option name="customName" value="MK" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="172.23.164.224" id="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" port="22" customName="PhoenixCA Dev" nameFormat="CUSTOM" username="matt">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="172.23.164.224" id="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" port="22" customName="PhoenixCA Dev" nameFormat="CUSTOM" username="matt">
         <option name="customName" value="PhoenixCA Dev" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="172.23.164.224" id="b4acf311-26bc-41e0-ba10-fd58178cdeff" port="22" customName="PhoenixCA Dev" nameFormat="CUSTOM" username="matt">
