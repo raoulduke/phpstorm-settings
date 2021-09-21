@@ -8,22 +8,22 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="b77d5a24-90c2-4fac-9c7c-f81d0248d939" name="PhoenixCA Dev" url="http://172.23.164.224">
-        <fileTransfer rootFolder="/home/matt/dev/phoenix_ca/clients/web" accessType="SFTP" host="172.23.164.224" port="22" sshConfigId="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" sshConfig="PhoenixCA Dev">
+      <webServer id="b77d5a24-90c2-4fac-9c7c-f81d0248d939" name="PhoenixCA WEB" url="https://mattdev.corp.moneris.com">
+        <fileTransfer rootFolder="/home/matt/dev/phoenix_ca/clients/web" accessType="SFTP" host="10.182.30.231" port="22" sshConfigId="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" sshConfig="PhoenixCA MATT">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
       <webServer id="1f24c88a-40bf-4195-942c-c34ccfe56ca4" name="PhoenixCA TEST" url="http://172.23.164.224">
-        <fileTransfer rootFolder="/home/matt/dev/test" accessType="SFTP" host="172.23.164.224" port="22" sshConfigId="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" sshConfig="PhoenixCA Dev">
+        <fileTransfer rootFolder="/home/matt/dev/test" accessType="SFTP" host="10.182.30.231" port="22" sshConfigId="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" sshConfig="PhoenixCA MATT">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="e15e1aff-11ab-4005-bfe9-f2069672c982" name="PhoenixCA Mobile" url="http://172.23.164.224">
-        <fileTransfer rootFolder="/home/matt/dev/phoenix_ca/clients/mobile" accessType="SFTP" host="172.23.164.224" port="22" sshConfigId="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" sshConfig="PhoenixCA Dev">
+      <webServer id="e15e1aff-11ab-4005-bfe9-f2069672c982" name="PhoenixCA Mobile" url="https://mattdev.corp.moneris.com">
+        <fileTransfer rootFolder="/home/matt/dev/phoenix_ca/clients/mobile" accessType="SFTP" host="10.182.30.231" port="22" sshConfigId="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" sshConfig="PhoenixCA MATT">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
