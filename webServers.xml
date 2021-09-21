@@ -29,6 +29,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="721cdf6b-3077-4ed0-a72c-00350fa9d27a" name="TMS" url="https://mattdev.corp.moneris.com:2222">
+        <fileTransfer rootFolder="/home/matt/dev/TMS" accessType="SFTP" host="10.182.30.231" port="22" sshConfigId="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" sshConfig="PhoenixCA MATT">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
