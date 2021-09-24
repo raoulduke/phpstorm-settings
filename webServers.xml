@@ -8,7 +8,7 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="b77d5a24-90c2-4fac-9c7c-f81d0248d939" name="PhoenixCA WEB" url="https://mattdev.corp.moneris.com">
+      <webServer id="b77d5a24-90c2-4fac-9c7c-f81d0248d939" name="PhoenixCA MATT" url="https://mattdev.corp.moneris.com">
         <fileTransfer rootFolder="/home/matt/dev/phoenix_ca/clients/web" accessType="SFTP" host="10.182.30.231" port="22" sshConfigId="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" sshConfig="PhoenixCA MATT">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
