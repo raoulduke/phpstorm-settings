@@ -36,6 +36,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="c816d018-6c0c-434a-b7aa-17887ec8cb96" name="MK2" url="http://new.mattkeaveney.com">
+        <fileTransfer rootFolder="/var/www/sandbox/mattkeaveney.com" accessType="SFTP" host="mattkeaveney.com" port="2222" sshConfigId="15d0510d-da18-4458-b869-d7df5f997368" sshConfig="MK" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
