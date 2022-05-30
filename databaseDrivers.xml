@@ -1,0 +1,7 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="mysql.8">
+      <artifact id="MySQL Connector/J 8" name="MySQL Connector/J 8" use="true" />
+    </driver>
+  </component>
+</application>
