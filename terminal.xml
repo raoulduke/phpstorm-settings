@@ -1,5 +1,8 @@
 <application>
   <component name="TerminalOptionsProvider">
-    <option name="myShellPath" value="C:\Program Files\ConEmu\ConEmu64.exe" />
+    <option name="myCopyOnSelection" value="true" />
+    <option name="myHighlightHyperlinks" value="false" />
+    <option name="myShellPath" value="C:\Users\matthew.keaveney\AppData\Local\Microsoft\WindowsApps\ubuntu.exe" />
+    <option name="myTabName" value="Ubuntu" />
   </component>
 </application>
