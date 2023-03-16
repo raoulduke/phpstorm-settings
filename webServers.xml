@@ -50,6 +50,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="4a9ae8f1-c4e6-4a26-973b-1ed3ee3a80f6" name="Watcher" url="https://mattdev.corp.moneris.com">
+        <fileTransfer rootFolder="/home/matt/dev/watcher" accessType="SFTP" host="10.182.30.231" port="22" sshConfigId="05f50e77-bea7-434d-b0cf-dcf4868b5e0d" sshConfig="PhoenixCA MATT">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
