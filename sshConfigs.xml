@@ -10,9 +10,6 @@
       <sshConfig authType="PASSWORD" host="172.23.164.224" id="b4acf311-26bc-41e0-ba10-fd58178cdeff" port="22" customName="PhoenixCA Dev" nameFormat="CUSTOM" username="matt">
         <option name="customName" value="PhoenixCA Dev" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="q9tpsmppr.corp.moneris.com" id="d63a2821-ecff-4534-bd4b-500c8d3f9b33" port="22" customName="TMS DHD" nameFormat="CUSTOM" username="Matthew.Keaveney@mkeaveney.admin#eselect.moneris.com@vq9btmsct10.eselect.moneris.com" useOpenSSHConfig="true">
-        <option name="customName" value="TMS DHD" />
-      </sshConfig>
     </configs>
   </component>
 </application>
